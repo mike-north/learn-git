@@ -1,11 +1,20 @@
-def add(a, b):  return a + b
-def sub(a, b):  return a - b
-def mult(a, b): return a * b
-def div(a, b):  return a / b
 
+def add(a, b):
+    """
+    Add some numbers together
 
-def main(): print('Result = {}'.format(
-    add(3, sub(7, 2)))
-)
+    ```py
+    add(2, 3) # 5
+    ```
+    """
+    return a + b
 
-main()
+def sub(a, b):
+    """
+    Subtract some numbers
+
+    ```py
+    sub(8, 3) # 5
+    ```
+    """
+    return a - b
